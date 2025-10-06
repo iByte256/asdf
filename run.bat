@@ -1,4 +1,5 @@
 @echo off
+git remote add origin https://github.com/iByte256/asdf.git
 git fetch origin main
 git pull origin main --rebase
 
